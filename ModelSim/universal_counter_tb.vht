@@ -6,7 +6,7 @@ end universal_counter_tb ;
 
 architecture tb of universal_counter_tb is
 -- inputs for top_level
-		signal rst				   : std_logic;
+		signal rst				  : std_logic;
 		signal sys_clk				: std_logic;
 		signal cnt_en 				: std_logic;
 		signal load 				: std_logic;
@@ -46,7 +46,7 @@ tb1 : process
 begin
 	----------------------------------------------------------------------------
 	----------------------------------------------------------------------------
-    -- BEGIN TEST CODE ---------------------------------------------------------
+        -- BEGIN TEST CODE ---------------------------------------------------------
 	rst <= '1';
 	cnt_en <= '0';
 	up <= '0';
