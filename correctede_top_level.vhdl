@@ -95,15 +95,15 @@ architecture Structural of top_level is
     port map(
       clk       => clk,
       reset     => CounterReset,
-      syn_clr    => Rst, 
+      syn_clr   => Rst, 
       load      => iLoad, 
       en        => iCnt_en, 
       up        => iUP, 
-      clk_en     => clk_enable,
-      d        => iData,
-      max_tick    => oMax, 
-      min_tick   => oMin,
-      q        => oQ
+      clk_en    => clk_enable,
+      d         => iData,
+      max_tick  => oMax, 
+      min_tick  => oMin,
+      q         => oQ
     );
 
       
@@ -120,3 +120,4 @@ architecture Structural of top_level is
 
 end Structural;
 
+vhd
