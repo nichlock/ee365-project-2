@@ -1,2 +1,3 @@
-# ee365-project-2
+# EE365 Project 2
+
 Source files for our EE365 Project 2.
